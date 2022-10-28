@@ -1,0 +1,60 @@
+.contenedor {
+    width: 750px;
+    height: 750px;
+    border:solid black;
+    background-color: brown;
+    
+}
+
+header {
+    margin: 3px;
+    width:745px;
+    height: 120px;
+    border: 1px black solid;
+    background-color: antiquewhite;
+}
+nav{
+    margin: 3px;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 745px;
+    border: 1px black solid;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    background-color: wheat;
+    width: 530px;
+    height: 80px;
+    border: 1px black solid;
+    margin: 10px
+}
+
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 550px;
+    height: 500px;
+    border: black solid 1px;
+    background-color: whitesmoke;
+    align-items: center;
+    
+}
+.sideBar{
+    background-color: azure;
+    width: 290px;
+    margin: 2px;
+    margin-left: 5px;
+
+}
+
+footer {
+    height: 50px;
+    width: 750px;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}

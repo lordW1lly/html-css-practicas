@@ -1,0 +1,77 @@
+.border {
+    border: 1pt black solid;
+}
+.container {
+    height: 750px;
+    width: 760px;
+}
+/* --- Header -- */
+header {
+    width: 750px;
+    height: 250px;
+    position: relative;
+    
+}
+
+
+#banner {
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    background-color: tan;
+}
+#logo {
+    height: 125px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+    top: 125px;
+    background-color: antiquewhite;
+}
+
+#login {
+    height: 125px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+}
+
+/*  --- NAV --- */
+
+nav {
+    height: 50px;
+    width: 750px;
+    
+    background-color: antiquewhite;
+}
+
+/*  -- Main -- */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 760px;
+    height: 400px;
+
+}
+
+.asideLeft {
+    height: 400px;
+    width: 125px;
+    background-color: beige;
+}
+
+.article {
+    width: 500px;
+    height: 400px;
+    background-color: wheat;
+}
+.asideRight {
+    height: 400px;
+    width: 125px;
+    background-color: blanchedalmond;
+}
+footer {
+    background-color: yellowgreen;
+}
