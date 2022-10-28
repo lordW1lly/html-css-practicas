@@ -1,0 +1,114 @@
+header {
+    width: 950px;
+    height: 150px;
+    background-color: rgba(36, 26, 26, 0.466);
+    display: flex;
+}
+
+header div {
+    width: 150px;
+    height: 100px;
+    background-color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+nav {
+    width: 950px;
+    height: 35px;
+    
+    background-color: chartreuse;
+}
+
+main {
+    width: 950px;
+    height: 380px;
+    background-color: rgba(98, 98, 98, 0.824);
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.section1 {
+    
+    width: 890px;
+    height: 230px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section2 div {
+    width: 890px;
+    height: 90px;
+    margin-left: 20px ;
+    background-color:rgba(245, 245, 220, 0.669);
+}
+
+.section2{
+    
+    
+    
+    margin-top: 20px;
+    
+    
+}
+body {
+    
+}
+
+.div11 {
+    
+    width: 200px;
+    height: 230px;
+    background-color:rgba(245, 245, 220, 0.669);
+    
+    margin-top: 20px;
+}
+
+.div12 {
+    background-color:rgba(245, 245, 220, 0.669);
+    width: 380px;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.div121 {
+    width: 130px;
+    height: 200px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.div122 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.div13 {
+    
+    width: 250px;
+    height: 230px;
+    background-color:rgba(245, 245, 220, 0.669);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+
+footer {
+    width: 950px;
+    height: 30px;
+    background-color: tomato;
+    
+}
