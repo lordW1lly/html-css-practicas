@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #feff99;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 2%;
+    width: 1000px;
+}
+
+h1 {
+    color: #493b98;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    border: solid 8px #f60304;
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.txt-remarcado-medium {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.txt-remarcado-small {
+    font-weight: bold;
+}
+
+.txt-subrayado {
+    text-decoration: underline;
+}
+
+.txt-right {
+    font-style: oblique;
+    text-align: right;
+    box-sizing: border-box;
+    padding-left: 15%;
+    padding-right: 4%;
+}

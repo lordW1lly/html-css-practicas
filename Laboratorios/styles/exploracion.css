@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 42px;
+    text-align: center;
+    color: rgb(196, 2, 2);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .txt-bg-yellow {
+    background-color: rgba(223, 228, 165, 0.483);
+    font-weight: bold;
+  }
+  .txt-petroleo {
+    color: rgb(25, 125, 192);
+    border: solid rgb(196, 2, 2);
+  }
+  .txt-verde {
+    color: #2cb877;
+  }
+  .txt-subrayado {
+    text-decoration: underline;
+  }
