@@ -1,0 +1,67 @@
+/* Caso1 */
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .rectangulo {
+    margin-top: 50px;
+    height: 350px;
+    width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+    background: radial-gradient(
+      ellipse at center,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(241, 111, 92, 1) 73%,
+      rgba(240, 47, 23, 1) 100%
+    );
+    box-shadow: 0px 0px 25px 10px rgba(247, 255, 13, 1);
+  }
+  
+  /* Caso2 */
+  .contenedor {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor1 {
+    width: 400px;
+    margin: 50px;
+    box-sizing: border-box;
+  }
+  div[class*="caja-"] {
+    width: 100px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  
+  .contenedor1 .caja-1 {
+    box-shadow: -2px -2px #000;
+  }
+  .contenedor1 .caja-2 {
+    box-shadow: -2px -2px 5px #000;
+  }
+  
+  .contenedor1 .caja-3 {
+    box-shadow: -2px -2px 0 2px #000;
+  }
+  
+  .contenedor1 .caja-4 {
+    box-shadow: -2px -2px 5px 2px #000;
+  }
+  
+  .contenedor1 .caja-5 {
+    box-shadow: 0px 0px 5px 0px #000;
+  }
+  .contenedor1 .caja-6 {
+    box-shadow: 0px 0px 1px 1px #000;
+  }

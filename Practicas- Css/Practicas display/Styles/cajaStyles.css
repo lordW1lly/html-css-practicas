@@ -1,0 +1,51 @@
+.div {
+    border: 10px solid #3ec483;
+    background: #5deaa8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .div1 {
+    background: #5deaa8;
+    height: 100px;
+    width: 200px;
+  }
+  .div2 {
+    border: 10px solid #3ec483;
+    background: #5deaa8;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .div3 {
+    background: #c95dea;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+  }
+  .div4 {
+    background: #e35dea;
+    height: 100px;
+    width: 200px;
+    padding: 20px 50px;
+    margin: 40px 30px;
+  }
+  .div5 {
+    background: #eade5d;
+  
+    height: 100px;
+    width: 200px;
+    padding: 20px 50px 60px;
+    margin: 40px 30px 70px;
+  }
+  .div6 {
+    background: #eadc5d;
+    height: 100px;
+    width: 200px;
+    padding: 20px 50px 60px 90px;
+    margin: 40px 30px 70px 80px;
+  }

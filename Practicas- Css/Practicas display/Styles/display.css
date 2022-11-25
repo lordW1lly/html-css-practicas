@@ -1,0 +1,38 @@
+.caja {
+    background-color: yellow;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+}
+
+.caja1 {
+    background-color: rgb(0, 64, 255);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+    display: block;
+}
+
+.caja2 {
+    background-color: rgb(0, 255, 34);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+    display: inline;
+}
+
+.caja3 {
+    background-color: rgb(0, 200, 255);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 50px 10px;
+    display: inline-block;
+}
